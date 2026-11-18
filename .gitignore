@@ -1,0 +1,26 @@
+# Java
+backend/target/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+backend/.env
+frontend/.env.local
+
+# IDE / OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+.env
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+.vscode/
